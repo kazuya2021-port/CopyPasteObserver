@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8283C77520882F4E00D24BC6 /* appleScripts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8283C77420882F4E00D24BC6 /* appleScripts.m */; };
+		8283C778208834A100D24BC6 /* CPOLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8283C777208834A100D24BC6 /* CPOLib.m */; };
+		8283C77A2088505600D24BC6 /* getAllInfo.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 8283C7792088505500D24BC6 /* getAllInfo.jsx */; };
+		8283C77D208853BE00D24BC6 /* ObjectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8283C77C208853BE00D24BC6 /* ObjectInfo.m */; };
+		8283C77F20885E5700D24BC6 /* checkOpened.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 8283C77E20885E5700D24BC6 /* checkOpened.jsx */; };
+		8283C7812088781B00D24BC6 /* addNote.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 8283C7802088781B00D24BC6 /* addNote.jsx */; };
+		828FA70920881ADA008D281D /* json2.jsxinc in Resources */ = {isa = PBXBuildFile; fileRef = 828FA70720881ADA008D281D /* json2.jsxinc */; };
+		828FA70A20881ADA008D281D /* makeAkaWaku.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 828FA70820881ADA008D281D /* makeAkaWaku.jsx */; };
+		828FA70C20881AFC008D281D /* getObjInfo.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 828FA70B20881AFC008D281D /* getObjInfo.jsx */; };
+		828FA70E20881F12008D281D /* chkSelObj.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 828FA70D20881F12008D281D /* chkSelObj.jsx */; };
+		82A298862085A02C0022A574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A298852085A02C0022A574 /* AppDelegate.m */; };
+		82A298882085A02C0022A574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A298872085A02C0022A574 /* Assets.xcassets */; };
+		82A2988B2085A02C0022A574 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A298892085A02C0022A574 /* MainMenu.xib */; };
+		82A2988E2085A02C0022A574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A2988D2085A02C0022A574 /* main.m */; };
+		82A66213208705B20096A207 /* HotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A66212208705B20096A207 /* HotKey.m */; };
+		82C1759D208968DD004C82D7 /* ObjectInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C1759C208968DD004C82D7 /* ObjectInfoController.m */; };
+		82C1759F20897A48004C82D7 /* setAllObjNote.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82C1759E20897A48004C82D7 /* setAllObjNote.jsx */; };
+		82C175A120898438004C82D7 /* deleteAkaWaku.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82C175A020898438004C82D7 /* deleteAkaWaku.jsx */; };
+		82C175A32089CD6C004C82D7 /* cpo.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C175A22089CD6B004C82D7 /* cpo.png */; };
+		82C175A52089D472004C82D7 /* getAllContents.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82C175A42089D472004C82D7 /* getAllContents.jsx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		827E24102086CEB000DA5536 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8283C77320882F4E00D24BC6 /* appleScripts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appleScripts.h; sourceTree = "<group>"; };
+		8283C77420882F4E00D24BC6 /* appleScripts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appleScripts.m; sourceTree = "<group>"; };
+		8283C776208834A100D24BC6 /* CPOLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPOLib.h; sourceTree = "<group>"; };
+		8283C777208834A100D24BC6 /* CPOLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPOLib.m; sourceTree = "<group>"; };
+		8283C7792088505500D24BC6 /* getAllInfo.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getAllInfo.jsx; sourceTree = "<group>"; };
+		8283C77B208853BE00D24BC6 /* ObjectInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectInfo.h; sourceTree = "<group>"; };
+		8283C77C208853BE00D24BC6 /* ObjectInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectInfo.m; sourceTree = "<group>"; };
+		8283C77E20885E5700D24BC6 /* checkOpened.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = checkOpened.jsx; sourceTree = "<group>"; };
+		8283C7802088781B00D24BC6 /* addNote.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addNote.jsx; sourceTree = "<group>"; };
+		828FA70720881ADA008D281D /* json2.jsxinc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json2.jsxinc; sourceTree = "<group>"; };
+		828FA70820881ADA008D281D /* makeAkaWaku.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = makeAkaWaku.jsx; sourceTree = "<group>"; };
+		828FA70B20881AFC008D281D /* getObjInfo.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getObjInfo.jsx; sourceTree = "<group>"; };
+		828FA70D20881F12008D281D /* chkSelObj.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chkSelObj.jsx; sourceTree = "<group>"; };
+		82A298812085A02C0022A574 /* CopyPasteObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyPasteObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A298842085A02C0022A574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82A298852085A02C0022A574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82A298872085A02C0022A574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82A2988A2085A02C0022A574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82A2988C2085A02C0022A574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A2988D2085A02C0022A574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82A2988F2085A02C0022A574 /* CopyPasteObserver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CopyPasteObserver.entitlements; sourceTree = "<group>"; };
+		82A2989A2085A6940022A574 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		82A66211208705B20096A207 /* HotKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotKey.h; sourceTree = "<group>"; };
+		82A66212208705B20096A207 /* HotKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotKey.m; sourceTree = "<group>"; };
+		82C1759B208968DD004C82D7 /* ObjectInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectInfoController.h; sourceTree = "<group>"; };
+		82C1759C208968DD004C82D7 /* ObjectInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectInfoController.m; sourceTree = "<group>"; };
+		82C1759E20897A48004C82D7 /* setAllObjNote.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = setAllObjNote.jsx; sourceTree = "<group>"; };
+		82C175A020898438004C82D7 /* deleteAkaWaku.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = deleteAkaWaku.jsx; sourceTree = "<group>"; };
+		82C175A22089CD6B004C82D7 /* cpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cpo.png; sourceTree = "<group>"; };
+		82C175A42089D472004C82D7 /* getAllContents.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getAllContents.jsx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82A2987E2085A02C0022A574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828FA706208816C6008D281D /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				82C175A42089D472004C82D7 /* getAllContents.jsx */,
+				82C175A020898438004C82D7 /* deleteAkaWaku.jsx */,
+				828FA70D20881F12008D281D /* chkSelObj.jsx */,
+				828FA70B20881AFC008D281D /* getObjInfo.jsx */,
+				828FA70720881ADA008D281D /* json2.jsxinc */,
+				8283C77E20885E5700D24BC6 /* checkOpened.jsx */,
+				8283C7802088781B00D24BC6 /* addNote.jsx */,
+				828FA70820881ADA008D281D /* makeAkaWaku.jsx */,
+				8283C7792088505500D24BC6 /* getAllInfo.jsx */,
+				82C1759E20897A48004C82D7 /* setAllObjNote.jsx */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		82A298782085A02C0022A574 = {
+			isa = PBXGroup;
+			children = (
+				82A298832085A02C0022A574 /* CopyPasteObserver */,
+				82A298822085A02C0022A574 /* Products */,
+				82A298992085A6940022A574 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82A298822085A02C0022A574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82A298812085A02C0022A574 /* CopyPasteObserver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82A298832085A02C0022A574 /* CopyPasteObserver */ = {
+			isa = PBXGroup;
+			children = (
+				828FA706208816C6008D281D /* Scripts */,
+				82A298842085A02C0022A574 /* AppDelegate.h */,
+				82A298852085A02C0022A574 /* AppDelegate.m */,
+				82A298872085A02C0022A574 /* Assets.xcassets */,
+				82A298892085A02C0022A574 /* MainMenu.xib */,
+				82A2988C2085A02C0022A574 /* Info.plist */,
+				82A2988D2085A02C0022A574 /* main.m */,
+				82A2988F2085A02C0022A574 /* CopyPasteObserver.entitlements */,
+				82A66211208705B20096A207 /* HotKey.h */,
+				82A66212208705B20096A207 /* HotKey.m */,
+				8283C77320882F4E00D24BC6 /* appleScripts.h */,
+				8283C77420882F4E00D24BC6 /* appleScripts.m */,
+				8283C776208834A100D24BC6 /* CPOLib.h */,
+				8283C777208834A100D24BC6 /* CPOLib.m */,
+				8283C77B208853BE00D24BC6 /* ObjectInfo.h */,
+				8283C77C208853BE00D24BC6 /* ObjectInfo.m */,
+				82C1759B208968DD004C82D7 /* ObjectInfoController.h */,
+				82C1759C208968DD004C82D7 /* ObjectInfoController.m */,
+				82C175A22089CD6B004C82D7 /* cpo.png */,
+			);
+			path = CopyPasteObserver;
+			sourceTree = "<group>";
+		};
+		82A298992085A6940022A574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				827E24102086CEB000DA5536 /* CoreGraphics.framework */,
+				82A2989A2085A6940022A574 /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82A298802085A02C0022A574 /* CopyPasteObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A298922085A02C0022A574 /* Build configuration list for PBXNativeTarget "CopyPasteObserver" */;
+			buildPhases = (
+				82A2987D2085A02C0022A574 /* Sources */,
+				82A2987E2085A02C0022A574 /* Frameworks */,
+				82A2987F2085A02C0022A574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopyPasteObserver;
+			productName = CopyPasteObserver;
+			productReference = 82A298812085A02C0022A574 /* CopyPasteObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82A298792085A02C0022A574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = uchiyama_Macmini;
+				TargetAttributes = {
+					82A298802085A02C0022A574 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 82A2987C2085A02C0022A574 /* Build configuration list for PBXProject "CopyPasteObserver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82A298782085A02C0022A574;
+			productRefGroup = 82A298822085A02C0022A574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82A298802085A02C0022A574 /* CopyPasteObserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82A2987F2085A02C0022A574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C175A32089CD6C004C82D7 /* cpo.png in Resources */,
+				828FA70920881ADA008D281D /* json2.jsxinc in Resources */,
+				828FA70E20881F12008D281D /* chkSelObj.jsx in Resources */,
+				82C175A120898438004C82D7 /* deleteAkaWaku.jsx in Resources */,
+				82C1759F20897A48004C82D7 /* setAllObjNote.jsx in Resources */,
+				82A298882085A02C0022A574 /* Assets.xcassets in Resources */,
+				82C175A52089D472004C82D7 /* getAllContents.jsx in Resources */,
+				8283C77F20885E5700D24BC6 /* checkOpened.jsx in Resources */,
+				82A2988B2085A02C0022A574 /* MainMenu.xib in Resources */,
+				828FA70A20881ADA008D281D /* makeAkaWaku.jsx in Resources */,
+				8283C7812088781B00D24BC6 /* addNote.jsx in Resources */,
+				828FA70C20881AFC008D281D /* getObjInfo.jsx in Resources */,
+				8283C77A2088505600D24BC6 /* getAllInfo.jsx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82A2987D2085A02C0022A574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C1759D208968DD004C82D7 /* ObjectInfoController.m in Sources */,
+				8283C778208834A100D24BC6 /* CPOLib.m in Sources */,
+				82A66213208705B20096A207 /* HotKey.m in Sources */,
+				82A2988E2085A02C0022A574 /* main.m in Sources */,
+				82A298862085A02C0022A574 /* AppDelegate.m in Sources */,
+				8283C77D208853BE00D24BC6 /* ObjectInfo.m in Sources */,
+				8283C77520882F4E00D24BC6 /* appleScripts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82A298892085A02C0022A574 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A2988A2085A02C0022A574 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82A298902085A02C0022A574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82A298912085A02C0022A574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82A298932085A02C0022A574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				INFOPLIST_FILE = CopyPasteObserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.CopyPasteObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx10.11;
+			};
+			name = Debug;
+		};
+		82A298942085A02C0022A574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				INFOPLIST_FILE = CopyPasteObserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.CopyPasteObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx10.11;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82A2987C2085A02C0022A574 /* Build configuration list for PBXProject "CopyPasteObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A298902085A02C0022A574 /* Debug */,
+				82A298912085A02C0022A574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A298922085A02C0022A574 /* Build configuration list for PBXNativeTarget "CopyPasteObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A298932085A02C0022A574 /* Debug */,
+				82A298942085A02C0022A574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82A298792085A02C0022A574 /* Project object */;
+}

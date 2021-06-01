@@ -1,0 +1,1 @@
+function addObjNote(s){    try{        var doc = app.activeDocument;        var selObj = doc.selection;        var o = selObj[0];        o.note = s;    }    catch(e) {    }            return;}var noteVal = arguments[0];addObjNote(noteVal);

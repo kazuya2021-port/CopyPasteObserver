@@ -1,0 +1,1 @@
+﻿#target illustrator#targetengine mainfunction isValidDocument(){    isOpend = false;    try{        var docRef = app.activeDocument;        isOpend = true;    }    catch(e)    {    }    return isOpend;}isValidDocument();
